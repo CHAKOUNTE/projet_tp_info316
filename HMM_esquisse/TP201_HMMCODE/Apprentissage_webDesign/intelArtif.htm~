@@ -1,0 +1,139 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>IntelArtif</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="intelArtif.css"/>
+	</head>
+	
+	<body>
+	<header>
+			<h2>H.M.M</h2>
+				
+				<nav >	
+				<ul >
+				<li><a href="welcome.htm">Retour</a></li>
+				<!--<li>extraire</li>-->
+				</ul>
+			</nav>
+				
+
+	</header>
+	
+	
+	<section id="section1">
+			<h2>Entrainement du modèle</h2>
+				
+		<form name="form1" method="post" action="traitement.php">
+			<p>
+				<label for="ameliorer" id="message">
+				<!--c'est ici que je vais informer l'utilisateur sur la saisi parent-enfant -->
+				Saisissez votre texte : 
+				</label>
+				<br />
+				
+				<input text="texte" name="input" value="" id="mot"/>
+					
+			</p>
+		</form>
+				
+			<p id="phrase"></p>
+	</section>
+	<div id="ext">extraire</div>
+	
+	
+	<section id="section2">
+				<h2>Tableau de transition</h2>
+
+			
+	<table>
+   <!-- Ici, on écrira le contenu du tableau -->
+
+   <tr class="mc">
+	   <th>--</th>
+       <th>Pre</th>
+       <th>Target</th>
+       <th>Post</th>
+	   <th>Other</th>
+   </tr>
+   <tr>
+       <td class="md">Pre</td>
+       <td id="prePRE">	0</td>
+       <td id="preTAR">	0</td>
+       <td id="prePOS">	0</td>
+	   <td id="preOTH">	0</td>
+   </tr>
+   <tr>
+       <td class="md">Target</td>
+       <td id="tarPRE">	0</td>
+       <td id="tarTAR">	0</td>
+	   <td id="tarPOS">	0</td>
+	   <td id="tarOTH">	0</td>
+   </tr>
+   
+   <tr>
+       <td class="md">Post</td>
+       <td id="posPRE">	0</td>
+       <td id="posTAR">	0</td>
+	   <td id="posPOS">	0</td>
+	   <td id="posOTH">	0</td>
+   </tr>
+   
+      <tr>
+       <td class="md">Other</td>
+       <td id="othPRE">	0</td>
+       <td id="othTAR">	0</td>
+	   <td id="othPOS">	0</td>
+	   <td id="othOTH">	0</td>
+   </tr>
+   
+	</table>
+						
+	</section>
+	
+	
+	
+	
+	<section id="section3">
+	<h2>Tableau d'observation</h2>
+	<table>
+   <!-- Ici, on écrira le contenu du tableau -->
+
+   <tr class="mc">
+	   <th>--</th>
+       <th >observation</th>
+      
+   </tr>
+   <tr>
+       <td class="md">Pre</td>
+       <td id="prePRE1">	0</td>
+      
+   </tr>
+   <tr>
+       <td class="md">Target</td>
+       <td id="tarPRE1">	0</td>
+    
+   </tr>
+   
+   <tr>
+       <td class="md">Post</td>
+       <td id="posPRE1">	0</td>
+ 
+   </tr>
+   
+      <tr>
+       <td class="md">Other</td>
+       <td id="othPRE1">	0</td>
+    
+   </tr>
+   
+	</table>
+	
+	</section>
+<img src="HMM.png" alt="picture"/>
+<img src="Hiden.png" alt="picture"/>
+		
+	<script src="intelArtif.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,158 @@
+body{
+font-family: Arial Narrow;
+background-image: url("1.jpg");
+background-repeat:no-repeat;
+background-color:rgba(150,150,150,0.1);
+
+}
+ul ul.menu-list{
+display:none;
+position:absolute;
+margin-left:0%;
+padding:2px;
+}
+li:hover ul.menu-list{
+display:block;
+}
+
+nav li{
+font-size:16px;
+list-style-type:none;
+display: inline-block;
+border:none;
+padding:2%;
+background-color:rgb(0,128,192);
+}
+nav li a{
+text-decoration:none;
+color:white;
+}
+nav li a:hover{
+font-weight:bold;
+}
+.menu-list li{
+width:200px;
+display:block;
+background-color:rgba(40,40,40,0.7);
+border:none;
+border-bottom:1px solid white;
+}
+.menu-list li:hover{
+background-color:rgb(255,128,40);
+font-weight:bold;
+}
+
+#logo{
+width:10%;
+height:15%;
+float:left;
+}
+.acceuil{
+background-color:rgba(240,240,240,0.2);
+border: 1px dashed rgba(240,240,240,0.2);
+margin-left:10%;
+width:80%;
+height:300px;
+}
+.connect input{
+border:none;
+border-radius:10% 10% 10% 10%;
+width:80%;
+height:30px;
+margin-top:2%;
+}
+.title{
+margin-left:10%;
+color:rgb(0,128,192);
+}
+form{
+margin-left:10%;
+margin-top:2%;
+font-weight:bold;
+}
+button{
+width:10%;
+}
+.title-menu{
+text-align:center;
+width:80%;
+height:30px;
+margin-left:10%;
+color:rgba(50,50,50,0.9);
+}
+.title-menu a{
+text-decoration:none;
+color:white;
+}
+.connect label{
+color:white;
+}
+.paragraph{
+border:1px solid rgba(0,128,192,0.6);
+background-color:rgba(0,128,192,0.6);
+font-size:30px;
+color:white;
+text-align:center;
+}
+.case{
+margin-left:7%;
+}
+.acceuil-list li{
+list-style-type: none;
+margin-top:5%;
+font-size:20px;
+display: inline-block;
+background-color:rgba(0,128,192,0.6);
+border:1px solid rgba(0,128,192,0.6);
+width:15%;
+height:5%;
+text-align:center;
+border-radius:50% 10% 50% 10%;
+}
+.acceuil-list li a{
+text-decoration:none;
+color:white;
+}
+#search{
+margin-left:65%;
+}
+footer{
+margin-left:5%;
+}
+footer li{
+list-style-type:none;
+display: inline-block;
+font-weight:bold;
+color:rgba(50,50,50,0.9);
+font-size:18px;
+margin-left:2%;
+
+}
+footer ul.footer-list li{
+display:block;
+width:150px;
+}
+footer ul.footer-list li a{
+text-decoration:none;
+color:white;
+}
+footer ul.footer-list li a:hover{
+color:rgba(50,50,50,0.9);
+}
+.footer-image .pict{
+width:5%;
+height:5%;
+}
+.footer-image{
+margin-left:5%;
+}
+.hour{
+color:rgba(50,50,50,0.9);
+float:right;
+font-size:50px;
+font-family:Aharoni;
+}
+.hour em{
+font-family:Sawasdee,Bradley Hand ITC,Aharoni;
+font-size:30px;
+}
