@@ -1,8 +1,0 @@
-Vous devez avoir w3school pour faire les manipulations suivantes.
- 
-Dans le chemin suivant w3school\certification\www.w3schools.com\bootstrap,
-
-copier les fichiers 'devoir_n' que j'ai envoyé.
-Ensuite, executer-les pour voir le résultat.
-
-NB:c'est juste une esquisse pour le moment
