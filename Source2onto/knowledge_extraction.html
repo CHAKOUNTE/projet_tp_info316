@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Source2onto Conf</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+          <a class="navbar-brand" href="#">Configurations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Terms extracted</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Class extracted</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Relation extracted</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Attributes extracted</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Axiomes extracted</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rules extracted</a>
+          </li>
+      </ul>
+  </div>  
+</nav>
+<br>
+<div class="container">
+    <form action="/action_page.php">
+      <div class="form-group">
+        <label for="sel1">Select an existing model:</label>
+        <select class="form-control" id="sel1" name="sellist1">
+          <option selected>Python</option>
+          <option>Java</option>
+          <option>Java Script</option>
+          <option>PHP</option>
+        </select>
+        <br>
+        <label for="sel2">Select the type of model :</label>
+        <select class="form-control" id="sel2" name="sellist2">
+          <option selected>HMM</option>
+          <option>REGEX</option>
+        </select>
+        <br>
+        <!--File uploading -->
+        <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupFileAddon01">Enter the link to the file:</span>
+        </div>
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+          <label class="custom-file-label" for="inputGroupFile01">Click here to choose a file</label>
+        </div>
+      </div>
+      </div>
+    </form>
+    <br>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+           <div class="form-group">
+              <label for="comment"><b>The model</b></label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div> 
+          <div class="btn-group btn-group-lg">
+            <button type="button" class="btn btn-primary" action="#">View the model</button>
+            <button type="button" class="btn btn-primary" action="#">Reset</button>
+          </div> 
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label for="comment"><b>Model description</b></label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+<br>
+
+<!-- The footer here-->
+</body>
+</html>
